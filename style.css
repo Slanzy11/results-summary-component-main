@@ -13,7 +13,7 @@ body {
 }
 .component-container {
   width: 20%;
-  padding: 20px;
+  padding: 40px;
   background-color: rgb(75, 31, 194);
   border-radius: 12px;
 }
@@ -86,7 +86,7 @@ p {
   margin-top: 20px;
 }
 .Rating-1 {
-  padding: 8px;
+  padding: 10px;
   color: hsl(0, 100%, 67%);
   background-color: hsl(0, 22%, 95%);
   border-radius: 8px;
@@ -98,7 +98,7 @@ p {
 }
 
 .Rating-2 {
-  padding: 8px;
+  padding: 10px;
   color: hsl(39, 100%, 56%);
   background-color: hsl(0, 18%, 93%);
   margin-bottom: 15px;
@@ -109,7 +109,7 @@ p {
   gap: 10px;
 }
 .Rating-3 {
-  padding: 8px;
+  padding: 10px;
   color: hsl(166, 100%, 37%);
   background-color: hsl(167, 60%, 94%);
   margin-bottom: 15px;
@@ -121,7 +121,7 @@ p {
 }
 
 .Rating-4 {
-  padding: 8px;
+  padding: 10px;
   color: hsl(234, 85%, 45%);
   background-color: hsl(240, 63%, 97%);
   margin-bottom: 15px;
