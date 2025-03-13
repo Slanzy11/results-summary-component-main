@@ -1,0 +1,161 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(221, 100%, 96%);
+}
+.component-container {
+  width: 20%;
+  padding: 20px;
+  background-color: rgb(75, 31, 194);
+  border-radius: 12px;
+}
+.Circle {
+  background-color: rgb(66, 27, 175);
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+.Summary {
+  width: 20%;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.sum {
+  font-weight: 700;
+  font-size: 18px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10% auto;
+}
+.Result {
+  margin-left: 40px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: hsl(241, 80%, 75%);
+}
+
+.Circle {
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 600;
+}
+.no-1 {
+  color: hsl(221, 100%, 96%);
+  margin-left: 40px;
+}
+.no-2 {
+  font-size: 14px;
+  margin-left: 42px;
+  font-weight: 700;
+  color: hsl(241, 98%, 75%);
+}
+.title {
+  color: hsl(221, 100%, 96%);
+  margin-left: 80px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+p {
+  font-size: 14px;
+  margin-left: 10px;
+  color: hsl(241, 80%, 75%);
+  margin-bottom: 20px;
+}
+.Rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.Rating-1 {
+  padding: 8px;
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 22%, 95%);
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.Rating-2 {
+  padding: 8px;
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(0, 18%, 93%);
+  margin-bottom: 15px;
+  display: flex;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  gap: 10px;
+}
+.Rating-3 {
+  padding: 8px;
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(167, 60%, 94%);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  text-decoration: none;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.Rating-4 {
+  padding: 8px;
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(240, 63%, 97%);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  text-decoration: none;
+  font-weight: 600;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 60px;
+  color: hsl(240, 1%, 72%);
+  background-color: hsl(228, 5%, 21%);
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  font-weight: 700;
+}
+span {
+  margin-left: 37px;
+  color: hsl(224, 30%, 27%);
+  font-size: 16px;
+  font-weight: 600;
+}
+.Rating-container h3 {
+  color: hsl(222, 26%, 72%);
+  font-size: 16px;
+  font-weight: 500;
+}
+.Rating-4 span {
+  margin-left: 48px;
+}
+.Rating-3 span {
+  margin-left: 48px;
+}
